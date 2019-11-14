@@ -1,6 +1,8 @@
 # AngleInput
 Simple angle input, initialized by one code line.
 
+You can hold *Shift* button to choose angle with accurancy of *15deg*
+
 ## How to use
 
 1. Load library:
