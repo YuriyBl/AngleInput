@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Angle Input</title>
+	<script src="AngleInput.js"></script>
+</head>
+<body>
+	<div class="angleInput"></div>
+	<div class="result">0deg</div>
+	<div class="text">Try to hold SHIFT button</div>
+
+	<script>
+		AngleInput('.angleInput', {size: '50px', color: 'whitesmoke'}, function(deg){
+			document.querySelector('body').style.background = "linear-gradient("+deg+"deg, #C7EDED, #F0EC57)";
+			document.querySelector('.result').innerHTML = deg+'deg';
+		});
+	</script>
+</body>
+</html>
